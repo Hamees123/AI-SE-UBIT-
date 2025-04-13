@@ -73,5 +73,5 @@ class Agent:
 # 🧪 Run the simulation
 if __name__ == "__main__":
     agent = Agent()
-    env = Environment(agent, n_rooms=5)  # Change number of rooms here
+    env = Environment(agent, n_rooms=7)  # Change number of rooms here
     env.execute_step(15)  # Simulate 15 steps
